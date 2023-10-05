@@ -1,6 +1,7 @@
 const randomNumber = Math.floor(Math.random() * 100) + 1;
 let attempts = 0;
 
+const button=button
 function startGame() {
   attempts++;
   const userGuess = prompt("Guess a number between 1 and 100:");
